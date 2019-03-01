@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  background: #f5f6f8;
+}
+
+.App{
+    width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+.Sliderbar{
+  float: left;
+  width: 190px;
+  height: 100%;
+  position: fixed;
+  z-index: 20px;
+  background: #fff;
+  box-shadow: 0 0.125rem 9.375rem rgba(90,97,105,.1), 0 0.25rem 0.5rem rgba(90,97,105,.12), 0 0.9375rem 1.375rem rgba(90,97,105,.1), 0 0.4375rem 2.1875rem rgba(165,182,201,.1);
+}
+
+.Navbar{
+    height: 60px;
+    width: calc(100% - 190px);
+    top: 0;
+    margin-left: 190px;
+    background: #fff;
+    float: left;
+    box-shadow: 0 0.125rem 0.625rem rgba(90,97,105,.12);
+    position: initial;
+}
+
+.Content{
+  width: calc(100% - 190px);
+  float: left;
+  top: 60px;
+  height: calc(100% - 61px);
+  background: transparent;;
+}
+
+.Logo{
+  height: 60px;
+  border-bottom: 1px solid #e1e5eb!important;
+  width: 100%;
+}
