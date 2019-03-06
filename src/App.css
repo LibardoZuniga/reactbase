@@ -4,6 +4,7 @@ body {
   margin:0;
   padding: 0;
   background: #f5f6f8;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
 }
 
 .App{
@@ -39,6 +40,7 @@ body {
   float: left;
   top: 60px;
   height: calc(100% - 61px);
+  margin-left: 190px;
   background: transparent;;
 }
 
@@ -46,4 +48,57 @@ body {
   height: 60px;
   border-bottom: 1px solid #e1e5eb!important;
   width: 100%;
+}
+
+.imageLogo{
+  float: left;
+}
+.TextLogo{
+  line-height: 31px;
+  font-weight: bold;
+
+}
+
+.contenedorLogo{
+   position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.Sliderbar li,ul{
+  margin:0;
+  padding:0;
+}
+
+.Sliderbar li{
+  text-decoration: none;
+  list-style-type: none;
+  height: 50px;
+  color: #3d5170;
+  cursor: pointer;
+  text-align: center;
+}
+
+.SliderbarLi:hover{
+  box-shadow: inset 0.1875rem 0 0 #007bff;
+    background-color: #fbfbfb;
+    color: #007bff;
+}
+
+.SliderbarText{
+    width: calc(100% - 30px);
+    float: left;
+    margin-top: 14px;
+    text-align: left;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+
+.SliderbarIcon{
+      width: 30px;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    text-align: center;
 }
