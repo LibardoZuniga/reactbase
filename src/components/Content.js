@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import File from './../modules/files/Files'
 class Content extends Component {
 
 	constructor(props){
@@ -12,8 +13,8 @@ class Content extends Component {
       	  {this.props.contentView === 'dashboard' ? (
                     <h2>Cargando</h2>
 
-            ) : this.props.contentView === 'slide' ? (
-                    <h2>Cargando</h2>
+            ) : this.props.contentView === 'files' ? (
+                    <File />
 
             )  : <div>{this.props.contentView}</div>}
       </div>

@@ -1,0 +1,45 @@
+.contenedor{
+	width: 90%;
+	height: 90%;
+	background-color: #fff;
+    border: none;
+    margin-left: 5%;
+    border-radius: .625rem;
+    margin-top: 20px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.contenedor table{
+	width: 100%;
+}
+
+.contenedor td{
+	border:1px solid #e1e5eb;
+	text-align: center;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.header td{
+	background: #fbfbfb;
+	border:0;
+	margin:0;
+	padding: 10px;
+	color: #5a6169;
+	font-weight: 500;
+}
+.cuerpoArchivos{
+	width: 100%;
+	height: 100%;
+}
+
+.cuerpoArchivos h3{
+	color: #3d5170;
+	margin-left: 5%;
+	font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0;
+}

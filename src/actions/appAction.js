@@ -5,7 +5,8 @@
 export function ExportModule(){
         return {
             dashboard:'dashboard',
-            Archivos:'files'
+            Archivos:'files',
+            Usuarios:'Usuarios'
         }
 
 }
